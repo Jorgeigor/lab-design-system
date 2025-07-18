@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Jorgeigor.github.io/lab-design-system", 
+  "homepage": "https://Jorgeigor.github.io/lab-design-system",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -19,7 +19,8 @@
     "clsx": "^2.1.1",
     "phosphor-react": "^1.4.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^8.1.0",
@@ -40,7 +41,6 @@
     "eslint-plugin-storybook": "^0.6.15",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "typescript": "~5.3.3",
     "vite": "^5.x.x",
     "vitest": "^1.x.x"
   },
