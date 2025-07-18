@@ -13,3 +13,5 @@ export function InputChecked({ }: InputCheckedProps){
 
 )
 }
+
+export { CheckboxPrimitive }

@@ -8,7 +8,7 @@ export default{
     component: TextInput.Root,
     args: {
         children: [
-            <TextInput.Icon>
+            <TextInput.Icon >
                 <EnvelopeSimple/>
             </TextInput.Icon>,
             <TextInput.Input placeholder='type your e-mail'/>
