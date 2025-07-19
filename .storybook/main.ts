@@ -1,5 +1,5 @@
+// .storybook/main.ts
 import type { StorybookConfig } from '@storybook/react-vite';
-import { mergeConfig } from 'vite'; 
 
 const config: StorybookConfig = {
   "stories": [
@@ -17,10 +17,11 @@ const config: StorybookConfig = {
     "options": {}
   },
 
-  async viteFinal(config, { configType }) { 
-    return mergeConfig(config, {
-      base: '/lab-design-system/storybook/', 
-    });
-  },
+ 
+  managerHead: (head) => `
+    ${head}
+    <base href="/lab-design-system/storybook/">
+  `,
 };
+
 export default config;
