@@ -1,4 +1,4 @@
-name: Deploy Storybook
+name: Deploy Storybook Docs to Github Pages
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} 
           publish_dir: ./storybook-static 
-          destination_dir: docs
+          destination_dir: storybook
