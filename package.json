@@ -6,7 +6,7 @@
   "homepage": "https://Jorgeigor.github.io/lab-design-system",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/lab-design-system",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
